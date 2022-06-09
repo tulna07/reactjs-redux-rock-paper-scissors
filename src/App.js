@@ -1,8 +1,9 @@
 // import logo from "./logo.svg";
 import "./App.css";
-import DiceGame from "./diceGame";
+import RpsGame from "./rock-paper-scissors";
+
 function App() {
-  return <DiceGame />;
+  return <RpsGame />;
 }
 
 export default App;

@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "fontGame";
+  src: url("./font/Pony.ttf");
+}
+
+body {
+  font-family: "fontGame";
+}
+
+.speech-bubble {
+  position: relative;
+  background: #45d994;
+  border-radius: 0.4em;
+}
+
+.speech-bubble:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: 35px solid transparent;
+  border-top-color: #45d994;
+  border-bottom: 0;
+  border-left: 0;
+  margin-left: -17.5px;
+  margin-bottom: -35px;
+}
